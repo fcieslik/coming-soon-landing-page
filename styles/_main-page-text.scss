@@ -1,0 +1,35 @@
+.content-text-right {
+  &__header {
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  &__text {
+  }
+
+  &__btn {
+    padding: 16px 32px;
+    border-radius: 30px;
+    width: max-content;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+}
+
+
+@media (max-width: 800px) {
+  .content-text-right {
+    &__header {
+      font-size: 28px;
+      font-weight: 400;
+    }
+
+    &__text {
+      font-size: 14px;
+    }
+  }
+}

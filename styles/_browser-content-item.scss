@@ -1,0 +1,57 @@
+.content-item-ball {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+
+  &--orange {
+    background-color: orange;
+  }
+
+  &--blue {
+    background-color: blue;
+  }
+
+  &--purple {
+    background-color: purple;
+  }
+}
+
+.content-text {
+  &__header {
+    background-color: #a3b1e1;
+    height: 20px;
+    width: 80px;
+    @include skeleton-animation;
+  }
+
+  &__texts {
+    display: grid;
+    grid-gap: 8px;
+  }
+
+  &__text {
+    background-color: #a3b1e1;
+    height: 10px;
+    @include skeleton-animation;
+
+    &--long {
+      width: 100%;
+    }
+
+    &--medium {
+      width: 80%;
+    }
+
+    &--short {
+      width: 60%;
+    }
+  }
+}
+
+.content-meatball {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #a3b1e1;
+  @include skeleton-animation;
+}

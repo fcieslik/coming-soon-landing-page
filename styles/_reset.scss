@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.5;
+}
